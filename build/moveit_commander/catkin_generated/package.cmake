@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "moveit_commander")
+set(moveit_commander_MAINTAINER "Ioan Sucan <isucan@willowgarage.com>")
+set(moveit_commander_DEPRECATED "")
+set(moveit_commander_VERSION "0.6.1")
+set(moveit_commander_BUILD_DEPENDS "python")
+set(moveit_commander_RUN_DEPENDS "geometry_msgs" "moveit_msgs" "moveit_ros_planning_interface" "python" "python-pyassimp" "rospy" "sensor_msgs" "shape_msgs" "tf")
+set(moveit_commander_BUILDTOOL_DEPENDS "catkin" "python-catkin-pkg")

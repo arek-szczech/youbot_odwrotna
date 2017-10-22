@@ -1,0 +1,2 @@
+moveit_commander:youbot_arm_kinematics:youbot_arm_kinematics_moveit:youbot_manipulation:youbot_moveit:youbot_moveit_config
+-DCATKIN_DEVEL_PREFIX=/home/arek/youbot_odwrotna/devel -DCMAKE_INSTALL_PREFIX=/home/arek/youbot_odwrotna/install
