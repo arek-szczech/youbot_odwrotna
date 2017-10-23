@@ -146,9 +146,9 @@ clean: CMakeFiles/run_tests.dir/clean
 # Target rules for target CMakeFiles/tests.dir
 
 # All Build rule for target.
+CMakeFiles/tests.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/youbot_arm_kinematics_moveit_test.dir/all
 CMakeFiles/tests.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/configuration_comparator_test.dir/all
 CMakeFiles/tests.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/load_moveit_plugin_test.dir/all
-CMakeFiles/tests.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/youbot_arm_kinematics_moveit_test.dir/all
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/arek/youbot_odwrotna/build/CMakeFiles 
@@ -455,8 +455,8 @@ clean: youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_
 
 # All Build rule for target.
 youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest_load_moveit_plugin_test.dir/all
-youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest_youbot_arm_kinematics_moveit_test.dir/all
 youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest_configuration_comparator_test.dir/all
+youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest_youbot_arm_kinematics_moveit_test.dir/all
 	$(MAKE) -f youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest.dir/build.make youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest.dir/depend
 	$(MAKE) -f youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest.dir/build.make youbot_arm_kinematics_moveit/CMakeFiles/_run_tests_youbot_arm_kinematics_moveit_gtest.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/arek/youbot_odwrotna/build/CMakeFiles 
@@ -1426,9 +1426,9 @@ clean: youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_m
 # Target rules for target youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest.dir
 
 # All Build rule for target.
-youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest_load_moveit_plugin_test.dir/all
-youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest_configuration_comparator_test.dir/all
 youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest_youbot_arm_kinematics_moveit_test.dir/all
+youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest_configuration_comparator_test.dir/all
+youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest.dir/all: youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest_load_moveit_plugin_test.dir/all
 	$(MAKE) -f youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest.dir/build.make youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest.dir/depend
 	$(MAKE) -f youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest.dir/build.make youbot_arm_kinematics_moveit/CMakeFiles/run_tests_youbot_arm_kinematics_moveit_gtest.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/arek/youbot_odwrotna/build/CMakeFiles 
@@ -2203,21 +2203,6 @@ youbot_moveit/clean:
 # Convenience name for "preinstall" pass in the directory.
 youbot_moveit/preinstall:
 .PHONY : youbot_moveit/preinstall
-
-#=============================================================================
-# Directory level rules for directory youbot_moveit_config
-
-# Convenience name for "all" pass in the directory.
-youbot_moveit_config/all:
-.PHONY : youbot_moveit_config/all
-
-# Convenience name for "clean" pass in the directory.
-youbot_moveit_config/clean:
-.PHONY : youbot_moveit_config/clean
-
-# Convenience name for "preinstall" pass in the directory.
-youbot_moveit_config/preinstall:
-.PHONY : youbot_moveit_config/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -94,7 +94,6 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/arek/youbot_odwrotna/build/youbot_arm_kinematics_moveit/cmake_install.cmake")
   INCLUDE("/home/arek/youbot_odwrotna/build/youbot_manipulation/cmake_install.cmake")
   INCLUDE("/home/arek/youbot_odwrotna/build/youbot_moveit/cmake_install.cmake")
-  INCLUDE("/home/arek/youbot_odwrotna/build/youbot_moveit_config/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

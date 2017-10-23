@@ -19,7 +19,6 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "youbot_arm_kinematics_moveit/catkin_generated/package.cmake"
   "youbot_manipulation/catkin_generated/package.cmake"
   "youbot_moveit/catkin_generated/package.cmake"
-  "youbot_moveit_config/catkin_generated/package.cmake"
   "/home/arek/youbot_odwrotna/devel/share/youbot_arm_kinematics/cmake/youbot_arm_kinematicsConfig-version.cmake"
   "/home/arek/youbot_odwrotna/devel/share/youbot_arm_kinematics/cmake/youbot_arm_kinematicsConfig.cmake"
   "/home/arek/youbot_odwrotna/src/CMakeLists.txt"
@@ -34,8 +33,6 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/home/arek/youbot_odwrotna/src/youbot_manipulation/package.xml"
   "/home/arek/youbot_odwrotna/src/youbot_moveit/CMakeLists.txt"
   "/home/arek/youbot_odwrotna/src/youbot_moveit/package.xml"
-  "/home/arek/youbot_odwrotna/src/youbot_moveit_config/CMakeLists.txt"
-  "/home/arek/youbot_odwrotna/src/youbot_moveit_config/package.xml"
   "/opt/ros/hydro/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/hydro/share/actionlib/cmake/actionlibConfig-version.cmake"
   "/opt/ros/hydro/share/actionlib/cmake/actionlibConfig.cmake"
@@ -255,7 +252,6 @@ SET(CMAKE_MAKEFILE_PRODUCTS
   "youbot_arm_kinematics_moveit/CMakeFiles/CMakeDirectoryInformation.cmake"
   "youbot_manipulation/CMakeFiles/CMakeDirectoryInformation.cmake"
   "youbot_moveit/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "youbot_moveit_config/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

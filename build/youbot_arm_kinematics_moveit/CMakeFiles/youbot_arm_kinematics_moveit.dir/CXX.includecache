@@ -48,12 +48,6 @@ youbot_arm_kinematics/inverse_kinematics.h
 youbot_arm_kinematics_moveit/kinematics_logger.h
 -
 
-/home/arek/youbot_odwrotna/src/youbot_arm_kinematics_moveit/ros/src/kinematics_logger.cpp
-youbot_arm_kinematics_moveit/kinematics_logger.h
--
-ros/console.h
--
-
 /home/arek/youbot_odwrotna/src/youbot_arm_kinematics_moveit/ros/src/youbot_arm_kinematics_moveit.cpp
 youbot_arm_kinematics_moveit/youbot_arm_kinematics_moveit.h
 -
